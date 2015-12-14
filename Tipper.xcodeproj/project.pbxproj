@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3F7FC01C1F3D90008D7B43 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F7FBF1C1F3D90008D7B43 /* settingsViewController.swift */; };
 		2B7877CE1C13991000E4E54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7877CD1C13991000E4E54B /* AppDelegate.swift */; };
 		2B7877D01C13991000E4E54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7877CF1C13991000E4E54B /* ViewController.swift */; };
 		2B7877D31C13991000E4E54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7877D11C13991000E4E54B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3F7FBF1C1F3D90008D7B43 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsViewController.swift; path = ../settingsViewController.swift; sourceTree = "<group>"; };
 		2B7877CA1C13991000E4E54B /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7877CD1C13991000E4E54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7877CF1C13991000E4E54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2B7877CD1C13991000E4E54B /* AppDelegate.swift */,
 				2B7877CF1C13991000E4E54B /* ViewController.swift */,
 				2B7877D11C13991000E4E54B /* Main.storyboard */,
+				2B3F7FBF1C1F3D90008D7B43 /* settingsViewController.swift */,
 				2B7877D41C13991000E4E54B /* Assets.xcassets */,
 				2B7877D61C13991000E4E54B /* LaunchScreen.storyboard */,
 				2B7877D91C13991000E4E54B /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					2B7877C91C13991000E4E54B = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 69UMG6Y7P4;
 					};
 					2B7877DD1C13991000E4E54B = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -258,6 +262,7 @@
 			files = (
 				2B7877D01C13991000E4E54B /* ViewController.swift in Sources */,
 				2B7877CE1C13991000E4E54B /* AppDelegate.swift in Sources */,
+				2B3F7FC01C1F3D90008D7B43 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +402,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = one.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tipper/Tipper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,10 +420,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = one.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tipper/Tipper-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +500,7 @@
 				2B7877F41C13991000E4E54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B7877F51C13991000E4E54B /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +509,7 @@
 				2B7877F71C13991000E4E54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B7877F81C13991000E4E54B /* Build configuration list for PBXNativeTarget "TipperUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +518,7 @@
 				2B7877FA1C13991000E4E54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
