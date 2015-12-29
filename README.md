@@ -22,8 +22,8 @@ The following **required** functionality is complete:
 
 Here's a walkthrough of implemented user stories:
 
-http://imgur.com/RK9eBeT
 
+http://i.imgur.com/RK9eBeT.gif
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
