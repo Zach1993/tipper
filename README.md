@@ -23,7 +23,7 @@ The following **required** functionality is complete:
 Here's a walkthrough of implemented user stories:
 
 
-http://i.imgur.com/RK9eBeT.gif
+![description](http://i.imgur.com/RK9eBeT.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
